@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waction Studio</title>
+  <link rel="stylesheet" href="css/galerie2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="brand">WACTION STUDIO</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="index.html">Home</a>
+                <a href="galerie2.html">Galerie</a>
+                <a href="drone.html">Drones</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <h3>Text</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae itaque eaque reprehenderit cum quidem incidunt, distinctio atque. A, in. Error, voluptatem! Suscipit nemo voluptatem quibusdam iusto dolore quidem numquam enim!</p>
+                    </div>  
+                    <video src='Video/MAX.mp4' autoplay muted loop></video> 
+            </div>
+        </div>
+
+        <div class="slide-container ">
+            <div class="slide">
+                <div class="content">
+                
+                    </div>  
+                    <video  src='Video/InstaTit.mp4' autoplay muted loop></video>  
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    
+                    </div>  
+                    <video src='Video/irl.mp4' autoplay muted loop></video>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                </div>
+                    <video  src='Video/Vid.mp4' autoplay muted loop></video>
+            </div>
+        </div>
+
+        
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <h3>Text</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae itaque eaque reprehenderit cum quidem incidunt, distinctio atque. A, in. Error, voluptatem! Suscipit nemo voluptatem quibusdam iusto dolore quidem numquam enim!</p>
+                    </div>  
+                    <video src='Video/VidFPV.mp4' autoplay muted loop></video>
+            </div>
+        </div>
+        <div id="next" onclick="next()"> <i class="fa-solid fa-angles-right"></i> </div> 
+        <div id="prev" onclick="prev()"> <i class="fa-solid fa-angles-left"></i> </div>
+    </div>
+
+       
+    <script src="js/galerie.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
